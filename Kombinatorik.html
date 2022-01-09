@@ -1,0 +1,61 @@
+<html>
+	<head></head>
+	<body>
+		<h1 onclick="window.location.href='KlausurLernDeckblatt.html'">Mathe Klausur</h1>
+		<br>
+		<h2>Kombinatorik</h2>
+		<div>
+			A: Alle Fälle, welche man herausfinden will<br>
+			Ω: Alle Fälle<br>
+			P(A) = |A|/|Ω|<br>
+			Fälle die nicht mit der Formel gelöst werden können:
+		</div>
+		<h3>Permutation</h3>
+		<div>
+			Die Anzahl ist wichtig aber es wiederholen sich keine Elemente<br>
+			Permutation von n>0 verschiedenen Elementen:<br>
+			P(n) := n!
+		</div>
+		<h3>Permutation mit Wiederholung</h3>
+		<div>
+			k: die Verschiedenen Gruppen<br>
+			P(n) := n!/(k₁!*k₂!*...*kn!)<br>
+			Beispiel: Man hat 3 gelbe und einen roten Ball. Wie viele anordnungen gibt es?<br>
+			n = 4 (Summe aller Bälle)<br>
+			P(n) := 4!/(3!*1!) = 24/6 = 4 Es gibt vier Möglichkeiten.
+		</div>
+		<h3>Variation</h3>
+		<div>Auswahl von k Elementen von maximal n Elementen.<br>
+			Berücksichtigung der Anordnung aber ohne Zurücklegen.
+		</div>
+		<h3>Kombination</h3>
+		<div>
+			Auswahl von k Elementen von maximal n Elementen.<br>
+			ohne Berücksichtigung der Anordnung und ohne Zurücklegen.
+		</div>
+		<img src='Bilder/Kombinatorik.PNG'>
+		<h2 onclick="window.location.href='Vorlesung4.html'">siehe auch Vorlesung 4</h2>
+
+		<h3>Schreibweise von Permutationen</h3>
+		<div>
+			Zweizeilenform:
+		</div>
+		<img src='Bilder/Zweizeilenform.PNG'>
+		<div>
+			Zyklenschreibweise:
+		</div>
+		<img src='Bilder/Zyklenschreibweise.PNG'>
+		<div>
+			Bei der Zyklenschreibweise liest man erst die erste Zahl, dann die dazugehörige Permutation (die Zahl dadrunter)<br>
+			Danach liest man die Zahl unter der zuletzt gelesenen Zahl.<br>
+			Wenn man wieder bei der ersten Zahl angekommen ist hat man den Zyklus beendet</div>
+		<h3>Verknüpfung zweier Permutationen (∘):</h3>
+		<div>
+			Wird auch Komposition genannt<br>
+			σ∘ͳ ≠ ͳ∘σ die Reihenfolge ist wichtig
+		</div>
+		<img src='Bilder/VerknüpfungZweizeilenform.PNG' width='600' height='200'>
+		<img src='Bilder/VerknüpfungZyklusschreibweise.PNG' height='200'>
+		<h2 onclick="window.location.href='Vorlesung5.html'">siehe auch Vorlesung 5</h2>
+	</body>
+</html>
