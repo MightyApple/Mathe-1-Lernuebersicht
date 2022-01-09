@@ -1,0 +1,33 @@
+<html>
+<head></head>
+	<body>
+		<h1 onclick="window.location.href='KlausurLernDeckblatt.html'">Mathe Klausur</h1>
+		<br>
+		<h2>Stellenwertsysteme</h2>
+		<h3 onclick="window.location.href='https://www.arndt-bruenner.de/mathe/scripts/Zahlensysteme.htm'">STELLENWERTSYSTEMBERECHNER: https://www.arndt-bruenner.de/mathe/scripts/Zahlensysteme.htm</h3>
+		<div>Die Anzahl der Ziffern in einem Stellenwertsystem heißt Basis b.<br>
+			Dezimalsystem: Basis 10 = alle Ziffern von 0-9<br>
+			Binärsystem: Basis 2 = 0 und 1<br>
+			Hexadezimalsystem: Basis 16 = 0-9,A,B,C,D,E,F (A ist 10, B ist 11 ...)
+		</div>
+		<h3>Umrechnung</h3>
+		<h4>Umrechnen in Dezimalsystem</h4>
+		<div>(10FA)₁₆ Die 16 ist die Basis und zeigt, dass 10FA eine Hexadezimalzahl ist<br>
+			Bei dem Umrechnen nimmt man zuerst den Einer (hier A). Diesen rechnet man in eine Dezimalzahl (A = 10).<br>
+			Dannach gehen wir eine Stelle nach links und rechnen diese um (F = 15).<br>
+			Das Ergebnis Multiplizieren wir mit der Basis (16) hoch der aktuellen stelle (F ist die erste Stelle nach dem Einer. Deswegen rechnen wir 15*16^1 = 240).<br>
+			Wir machen dies mit allen Stellen und addieren die Ergebnisse miteinander.<br>
+			(10FA)₁₆ = 10+240+0+4096 = 4346<br>
+			Bei Nachkommerstellen rechnet man die Zahl mal Basis hoch der Negativen stelle ((0,A)₁₆ = 10*16^-1 = 0,625)<br>
+		</div>
+		<h4>Umrechnen von Dezimalsystem ohne Nachkommerstellen</h4>
+		<div>Erst muss x (die Dezimalzahl, welche umgerechnet wird) und b (das Stellenwertsystem in welches gerechnet wird) gegeben sein<br>
+			(x = 4346, b = 16) erst rechnet man x/b. (4346/16 = 271,625)<br>
+			Dannach nimmt man den rest (0,625) und rechnet diesen geteilt ducrch der Basis hoch -1 (0,625/16^-1 = 10)<br>
+			Wenn das Ergebnis über 9 ist rechnet man das in das dementsprechende Stellenwertsystem um (10 = A)<br>
+			Nun rechnet man das Ergebnis der ersten Rechnung (271) / durch die Basis. Wenn kein Rest da bleibt ist die Stelle 0 (271/16 = 16,9375 | 0,9375/16^-1 = 15 | 15 = F | 16/16 = 1 | 0 = 0 |)<br>
+			Wenn x kleiner ist als b rechnet man x einfach in das Stellenwertsystem um (1 = 1)(Ergebnis: 10FA)
+		</div>
+		<h2 onclick="window.location.href='Vorlesung2.html'">siehe auch Vorlesung 2</h2>
+	</body>	
+</html>	
