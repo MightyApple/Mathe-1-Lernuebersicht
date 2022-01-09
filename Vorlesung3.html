@@ -1,0 +1,55 @@
+<html>
+	<head></head>
+	<body>
+		<h1 onclick="window.location.href='KlausurLernDeckblatt.html'">Mathe Klausur</h1>
+		<br>
+		<h1>Vorlesung 3: Mathematische Beweise, Induktion, Binomialkoeffizient, Binomischer Lehrsatz</h1>
+		<br>
+		<h2>Mathematische Beweise</h2>
+		<h3>Direkter Beweis</h3>
+		<div>
+			Axiom: ein Wahrer Grundsatz, den man nicht Beweisen braucht<br>
+			A₀⟹A₁⟹...⟹An<br>
+			Wenn A₀ ein Axiom ist und darausfolgt, dass A₁ ein Axiom ist, dann ist An auch ein Axiom
+		</div>
+		<h3>Indirekter Beweis</h3>
+		<div>
+			A⟹B<br>
+			kann nicht direkt Bewiesen werden, allerding kann man durch die negierung von A⟹B einen Wiederspruch zur Voraussetzung herleiten.<br>
+			Wenn nichtB⟹nichtA dann A⟹B
+		</div>
+		<h3>Beweis durch vollständige Induktion</h3>
+		<h4>Induktionsanfang (IA)</h4>
+		<div>n₀∈ℕ und n≥n₀ müssen beide hier Bewiesen werden. Man setzt für n
+		 die kleinst mögliche Zahl ein, um zu beweisen ob die Formel stimmt.</div>
+		<h4>Induktionsvoraussetzung (IV)</h4>
+		<div>Wir schreiben, dass wir durch den IA beweisen können, dass die Formel mindestens bei einem n stimmt</div>
+		<h4>Induktionsschritt (IS)</h4>
+		<div>A(n)⟹A(n+1)<br>
+			Wir setzen n+1 für jedes n ein<br>
+			Jetzt versuchen wir die Formel so umzubilden, dass beide Formeln gleich sind.<br>
+			Hierfür bilden wir eine Formel, bis diese wie die Grundformel aussieht und setzen dafür die andere Grundformel aus der IV ein.<br>
+			Jetzt können wir beide Formeln gleich werden lassen
+		</div>
+		<h3 onclick="window.location.href='https://www.youtube.com/watch?v=bRR7tOdjOt4'">gutes erklär Video</h3>
+		<h2>Gaußsche Summenformel</h2>
+		<img src='Bilder/GaußscheSummenformel.PNG'>
+		<h2>Binomialkoeffizient = (n über k) = (n; k)</h2>
+		<div>Fakultät: n! = 1*2*3*...*n<br>
+			falls n = 0 : n! = 1<br>
+			falls n > 0 : n! = n*(n-1)!<br>
+			Binomialkoeffizient: (n; k) = n!/(k!*(n-k)!)<br>
+			(n; k-1)+(n; k) = (n+1; k)
+		</div>
+		<h2>Binomischer Lehrsatz</h2>
+		<div>
+			Der binomische Lehrsatz rechnet die Ergebnise der binomischen Formel mit beliebig hohem Exponenten aus. (insofern dieser größer gleich 0 ist)<br>
+		</div>
+		<img src='Bilder/BinomischerLehrsatz.PNG'>
+		<h3 onclick="window.location.href='https://rechneronline.de/summe/binomischer-lehrsatz.php'">Guter online Rechner</h3>
+		<div>Das Ergebnis wird immer um einen Term größer je höher der Exponent ist.<br>
+			Das Pascalsche Dreieck hilft dabei dies Abzulesen.
+		</div>
+		<img src='Bilder/PascalscheDreieck.PNG'>
+	</body>
+</html>
