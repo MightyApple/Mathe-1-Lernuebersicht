@@ -1,0 +1,37 @@
+<html>
+	<head></head>
+	<body>
+		<h1 onclick="window.location.href='KlausurLernDeckblatt.html'">Mathe Klausur</h1>
+		<br>
+		<h1>Vorlesung 10: Newton-Verfahren, Taylorpolynom, Kurvendiskussion</h1>
+		<br>
+		<h2>Kurvendiskussion</h2>
+		<div>
+			lokales Minimum bzw. Maximum: Die Ableitung am Extrempunkt ist 0.<br>
+			Wendepunkt ist in der zweiten Ableitung eine Nullstelle.
+		</div>
+		<h4 onclick="window.location.href='https://www.geogebra.org/classic?lang=de'">Geogebra</h4>
+		<h2>Newton-Verfahren</h2>
+		<div>
+			Es ist ein Iterationsverfahren zum Berechnen von Nullstellen.<br>
+			Man braucht: 
+			<ol>
+				<li>Eine Funktion f(x)
+				<li>Einen ursprungswert x<sub>0</sub>
+				<li>Die Ableitung der Funktion f`(x)
+			</ol>
+			Bei dem Verfahren rechnet man die Tangente von f(x) bis diese auf der Nullstelle liegt
+		</div>
+		<h3>Formel</h3>
+		<div>x<sub>k+1</sub> = x<sub>k</sub>-(f(x<sub>k</sub>)/f´(x<sub>k</sub>))<br>
+			Jeder durchlauf verdoppelt die Anzahl der richtigen Stellen.
+		</div>
+		<h2>Taylorpolynom</h2>
+		<div>Wir erstellen eine Funktion, welche sich mit jedem durchlauf f(x) immer mehr ähnelt.</div>
+		<h3>Formel</h3>
+		<img src='Bilder/Taylorpolynom.PNG'>
+		<div>n ist die Anzahl der Durchläufe<br>
+			x<sub>0</sub> ist der start x Wert. Dieser wird immer mit dem ergebnis der letzten Rechnung ersetzt.
+		</div>
+	</body>
+</html>
